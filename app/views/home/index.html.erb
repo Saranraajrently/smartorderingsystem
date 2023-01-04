@@ -1,0 +1,7 @@
+<h1>Home Page</h1>
+<h2>User</h2>
+<%= link_to "User Login", new_user_session_path %>
+<%= link_to "User Logout", destroy_user_session_path, method: :delete  %>
+<h2>Admin</h2>
+<%= link_to "Admin Login", new_restaurant_admin_session_path %>
+<%= link_to "Admin Logout", destroy_restaurant_admin_session_path, method: :delete  %>
